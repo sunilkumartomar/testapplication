@@ -12,14 +12,14 @@ public class Main {
         lap.add(new Laptop(1, "hp15", 5, "hp"));
         lap.add(new Laptop(2, "ln15", 10, "lenovo"));
         lap.add(new Laptop(3, "ln", 16, "Apple"));
-        lap.add(new Laptop(4, "access", 32, "Dell"));
+        lap.add(new Laptop(4, "access", 32, "Dell"));/*
         Consumer<String> consumer1 = new Consumer<String>() {
 
             @Override
             public void accept(String country) {
                 System.out.println(country);
             }
-        };
+        };*/
         Consumer<String> consumer2 = country -> System.out.println(country);
         //Comparator<Laptop> com = (p1,p2)
 
